@@ -18,3 +18,7 @@ test('fibonacci de -1 debe lanzar error', () => {
 test('factorial de 0 debe ser 1', () => {
   expect(math.factorial(0)).toBe(1);
 });
+
+//Forzar la falla del test
+
+test('fib(5) = 7 (intencionalmente mal)', () => expect(fibonacci(5)).toBe(7));
