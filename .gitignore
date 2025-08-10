@@ -1,0 +1,8 @@
+#Proyecto Node.js
+# Ignorar archivos de entorno
+node_modules/
+.env
+coverage/
+*.log
+npm-debug.log*
+.DS_Storeg
